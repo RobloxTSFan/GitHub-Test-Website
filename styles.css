@@ -1,0 +1,36 @@
+.title {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    font-family: sans-serif;
+    transform: translate(-50%, 0%);
+}
+
+.counter {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    top: 8%;
+    transform: translate(-50%, 0%);
+    font-family: sans-serif;
+}
+
+.btn {
+    background-color: #07ffff;
+    border: none;
+    padding: 15px 30px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    border-radius: 10px;
+    box-shadow: 0 9px #00d1d1;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0%);
+}
+
+.btn:active {
+    background: #00d1d1;
+}
